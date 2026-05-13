@@ -26,4 +26,5 @@ jobs:
           java-version: 8
 
       - name: Build and Test
+        working-directory: ./ontrack_tdd_ci
         run: mvn clean test
